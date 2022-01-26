@@ -7,6 +7,9 @@ import numpy as np
 
 
 def resolucion(x):
+    '''
+    limpieza de la variable para saber si tras el ataque no hubo heridos, herido o muerte
+    '''
     x=str(x).lower()
     if "no injury" in x:
         x= "no injury"
@@ -22,6 +25,9 @@ def resolucion(x):
 
 
 def sexo(x):
+    '''
+    para limpiar la variable sexo con "f" para mujer y "m" para hombre
+    '''
     x=str(x).lower()
     if "f" in x:
         x= "f"
@@ -36,6 +42,9 @@ def sexo(x):
         return np.nan
 
 def deaths(x):
+    '''
+    limpiar la variable muertes para tener el valor 0 si no muere y 1 si muere
+    '''
     if x!=x:
         return np.nan
     x=str(x).lower()
@@ -56,6 +65,9 @@ def deaths(x):
 
 
 def sharks(x):
+    '''
+    para saber el tipo de tiburón que hizo el ataque
+    '''
     x=str(x).lower()
     if "white shark" in x:
         x= "whiteshark"

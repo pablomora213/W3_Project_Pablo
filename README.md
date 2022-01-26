@@ -18,7 +18,9 @@ Deathstype, whity y sharky son los .csv que he exportado tras la limpieza de las
 
 Sharknado_limpiezaDF es el jupyter notebook en donde he desarrollado la limpieza del data frame inicial.
 
-Visualization es el jupyter en donde he analizado los .csv finales para comprobar la hipótesis y donde he incorporado los graficos. 
+Visualization es el jupyter en donde he analizado los .csv finales para comprobar la hipótesis y donde he incorporado los graficos.
+
+En la carpeta src encontraremos un archivo con las funciones.
 
 ## LIBRERÍAS IMPORTADAS (technology stack):
 
@@ -28,6 +30,7 @@ Visualization es el jupyter en donde he analizado los .csv finales para comproba
 - [numpy](https://numpy.org/) as np
 - [re](https://github.com/python/cpython/blob/3.10/Lib/re.py) (regex)
 - [plotly.express](https://plotly.com/python/) as px
+- src.cleaning es una librería en donde estan las funciones que he usado para la limpieza
 
 ## LIMPIEZA DE LA BASE DE DATOS:
 
